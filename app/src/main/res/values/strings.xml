@@ -1,0 +1,19 @@
+﻿<resources>
+    <string name="app_name">Enactus MNNIT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutus"> Enactus is an international non-profit organization that works with leaders in business and higher education to mobilize university students to make a difference in their communities while developing the skills to become socially responsible business leaders. It is working at the grass root level in the areas of Health, Education and Social Entrepreneurship to contribute back to the society which has given us so much.
+   Holistic development of the society with the joint efforts of all the stakeholders is the cynosure of Enactus-MNNIT Allahabad. It is working with the leaders in Education and Corporate sectors along with the students to pull vulnerable families out of penury.  </string>
+</resources>

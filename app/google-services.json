@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "238127809190",
+    "firebase_url": "https://enactus-mnnit-10e9c.firebaseio.com",
+    "project_id": "enactus-mnnit-10e9c",
+    "storage_bucket": "enactus-mnnit-10e9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238127809190:android:d73b423f400ea73c",
+        "android_client_info": {
+          "package_name": "com.example.admin1.enactusmnnit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238127809190-hdhv8qhbde9og4pa1g702nujvccvaffn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin1.enactusmnnit",
+            "certificate_hash": "03d26b868d9cd74127e38d78583c09c92822f189"
+          }
+        },
+        {
+          "client_id": "238127809190-8jhj85f0v2doj8dcir49q1qbdff6tpdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7dIcesdhHajKBAYG5byEswg0JAO3kmFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238127809190-8jhj85f0v2doj8dcir49q1qbdff6tpdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

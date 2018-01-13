@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.enactusmnnit.Forum">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="373dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:text=" Name "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:textSize="15dp"
+        android:textColor="#010101" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/select"
+    android:orientation="horizontal">
+
+
+    <RadioButton
+        android:text="Year "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yearbutton"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:textSize="15dp"
+        android:textColor="#010101"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumini"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="15dp"
+       android:id="@+id/alumini"
+        android:textColor="#010101"
+        android:layout_gravity="center_horizontal"></RadioButton>
+    <RadioButton
+        android:text="Others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/other"
+        android:textSize="15dp"
+        android:textColor="#010101"/>
+
+
+</RadioGroup>
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:visibility="invisible"
+        android:maxLength="1"
+        android:phoneNumber="true"
+        android:hint="year " />
+
+
+    <EditText
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible"
+        android:layout_marginRight="15dp"
+        android:hint="Branch"/>
+    <TextView
+        android:text=" What's your idea ? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:textSize="15dp"
+        android:textColor="#010101" />
+
+    <EditText
+        android:id="@+id/idea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:maxLength="500"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:text="Save"
+        android:textColor="#040404"
+        android:background="#fece3e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+    </ScrollView>
+</FrameLayout>

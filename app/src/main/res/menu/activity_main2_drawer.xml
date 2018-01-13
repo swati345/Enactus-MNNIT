@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_team"
+            android:title="Team" />
+
+        <item
+            android:id="@+id/pproject"
+            android:icon="@drawable/ic_pproject"
+            android:title="Projects" />
+        <item
+            android:id="@+id/new_ideas"
+            android:icon="@drawable/ic_forum"
+            android:title="Forum for new Ideas" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact" />
+
+    </group>
+
+
+    <item android:title="Gallery">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/pics"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Snapshots" />
+            <item
+                android:id="@+id/video"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Videos" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
